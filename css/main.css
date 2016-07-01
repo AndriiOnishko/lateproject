@@ -6,7 +6,7 @@ html{
 }
 body{
     background-size: cover;
-    background-image: url(/img/background.jpg);
+    background-image: url(../img/background.jpg);
 }
 a{
     text-decoration: none;
@@ -58,7 +58,7 @@ div.container{
 }
 
 #home-block{
-    background-image: url(/img/hb-background.png);
+    background-image: url(../img/hb-background.png);
     position: absolute;
     border-radius: 8px;
     width:35%;
@@ -114,7 +114,7 @@ div.container{
     min-height: 40px;
     border-radius: 8px;
     padding:10px;
-    background-image: url(/img/ft-background1.png);
+    background-image: url(../img/ft-background1.png);
     top: 180px;
 }
 .card-footer{
@@ -127,7 +127,7 @@ div.container{
 }
 #page-abilities{
     background-color: aliceblue;
-    background-image: url(/img/hb-background.png);
+    background-image: url(../img/hb-background.png);
     border-radius: 8px;
     position: absolute;
     display:  none;
@@ -189,7 +189,7 @@ div.container{
 }
 #page-contact{
     background-color: aliceblue;
-    background-image: url(/img/hb-background.png);
+    background-image: url(../img/hb-background.png);
     border-radius: 8px;
     position: absolute;
     display: none;
