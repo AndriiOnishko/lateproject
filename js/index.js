@@ -12,7 +12,7 @@ function PageAboutShow() {
     $("#page-abilities").hide();
     $("#page-resume").hide();
     $("#page-projects").hide();
-    $("#page-about").show();
+    $("#page-about").show(5000);
 }
 function PageResumeShow() {
     "use strict";
