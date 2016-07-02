@@ -5,7 +5,7 @@ html{
     font-family: 'Lato', sans-serif;
 }
 body{
-    background-size: cover;
+    background-size: auto;
     background-image: url(../img/background.jpg);
 }
 a{
@@ -40,7 +40,7 @@ div.container{
 
 }
 .main-menu-list a{
-    width: 180px;
+    width: 100%;
     height: 40px;
     line-height: 40px;
     background: rgb(255, 165, 30);
@@ -59,6 +59,7 @@ div.container{
 
 #home-block{
     background-image: url(../img/hb-background.png);
+    background-size: auto;
     position: absolute;
     border-radius: 8px;
     width:35%;
@@ -110,12 +111,13 @@ div.container{
 .card-profile-description-ft-unit{
     position: relative;
     color: white;
-    min-width: 400px;
+    min-width: 40%;
     min-height: 40px;
     border-radius: 8px;
     padding:10px;
     background-image: url(../img/ft-background1.png);
-    top: 180px;
+    background-size: auto;
+    top: 140px;
 }
 .card-footer{
     position: absolute;
@@ -130,7 +132,6 @@ div.container{
     background-image: url(../img/hb-background.png);
     border-radius: 8px;
     position: absolute;
-    display:  none;
     width: 35%;
     height: 600px;
     top: 0;
@@ -138,37 +139,33 @@ div.container{
     overflow: hidden;
 }
 
-#page-abilities:target{
-    display:block;
-}
 .section-title{
-    width:350px;
+    width: 75%;
     color: black;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 20px;
     border-bottom: 1px solid black;
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
     padding-bottom: 10px;
     padding-left: 130px;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
 }
 .section-item-title{
-    width: 350px;
-    margin-left: 50px;
+    width: 75%;
+    margin-left: 10%;
     font-weight: bold;
     font-size: 18px;
     border-bottom: 1px dotted black;
 }
 .dev-skills{
-    width: 400px;
+    width: 85%;
 }
 .dev-skills li{
     background-color: aliceblue;
-    margin-bottom: 15px;
-    line-height: 25px;
+    margin-bottom: 5%;
+    line-height: 150%;
     border-radius: 4px;
     padding-left: 20px;
     opacity: 0.5;
@@ -180,28 +177,63 @@ div.container{
 .prof-skills li{
     display: block;
     background-color: aliceblue;
-    margin-bottom: 15px;
-    line-height: 25px;
+    margin-bottom: 5%;
+    line-height: 150%;
     border-radius: 4px;
     padding-left: 20px;
     opacity: 0.5;
     box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
 }
-#page-contact{
+#page-resume{
     background-color: aliceblue;
     background-image: url(../img/hb-background.png);
+    background-size: auto;
     border-radius: 8px;
     position: absolute;
-    display: none;
     width: 35%;
     height: 600px;
     top: 0;
     left:61%;
-    overflow: hidden;
+    overflow-y: scroll;
 }
-#page-contact:target{
-    display: block;
+
+#page-about{
+    background-color: aliceblue;
+    background-image: url(../img/hb-background.png);
+    background-size: auto;
+    border-radius: 8px;
+    position: absolute;
+    width: 35%;
+    height: 600px;
+    top: 0;
+    left:61%;
+    overflow-y: scroll;
 }
+#page-projects{
+    background-color: aliceblue;
+    background-image: url(../img/hb-background.png);
+    background-size: auto;
+    border-radius: 8px;
+    position: absolute;
+    width: 35%;
+    height: 600px;
+    top: 0;
+    left:61%;
+    overflow-y: scroll;
+}
+#page-contact{
+    background-color: aliceblue;
+    background-image: url(../img/hb-background.png);
+    background-size: auto;
+    border-radius: 8px;
+    position: absolute;
+    width: 35%;
+    height: 600px;
+    top: 0;
+    left:61%;
+    overflow-y: scroll;
+}
+
 
 
 

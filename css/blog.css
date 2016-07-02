@@ -1,0 +1,45 @@
+body{
+    background-image: url(../img/hb-background.png);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#main-menu{
+    position: fixed;
+    left: 5%;
+    width: 50%;
+    top: 3%;
+    padding-right: 12px;
+    float:left;
+}
+.main-menu-list{
+    margin: 0;
+    padding: 0;
+}
+.main-menu-list li{
+    margin-bottom: 10px;
+
+}
+.main-menu-list a{
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    background: rgb(255, 165, 30);
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: aliceblue;
+    display: block;
+    padding-left: 30px;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.main-menu-list a:hover{
+    background: rgb(178, 79, 0);
+}
+.my-blog{
+    margin-left: 43%;
+}
