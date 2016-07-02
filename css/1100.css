@@ -24,12 +24,7 @@ div.container{
     padding-right: 2%;
 }
 #main-menu{
-    position:absolute;
-    width: 15%;
-    top: 0;
-    margin-left: 8%;
-    padding-right: 12px;
-    margin-top: 30px;
+    display: none;
 }
 .main-menu-list{
     margin: 0;
@@ -233,9 +228,3 @@ div.container{
     left:61%;
     overflow-y: scroll;
 }
-
-
-
-
-
-
