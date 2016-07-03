@@ -233,7 +233,18 @@ div.container{
     left:61%;
     overflow-y: scroll;
 }
-
+.google-map{
+    margin: 0 auto;
+    padding-left: 7%;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    height: 50px;
+    padding: 6px 12px;
+    border: 1px, solid, #ccc;
+}
 
 
 

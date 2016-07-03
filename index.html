@@ -78,7 +78,7 @@
             <div id="page-about">
                 <article>
             <header>
-                <h2>Немного о себе!</h2>
+                <h2 class="section-title">About Me</h2>
             </header>
             <p>Приветствую Вас на моём персональном сайте. Меня зовут Андрей Онишко, и я WEB программист. Хочу рассказать Вам немного о себе, своих умениях, навыках и увлечениях.
 Родился 13 марта 1981 года в городе Донецк. Женат, есть ребёнок. На данный момент проживаю во Львове.</p>
@@ -111,7 +111,9 @@
             </footer>
         </article>
             </div>
-            <div id="page-resume"></div>
+            <div id="page-resume">
+                <h2 class="section-title">Resume</h2>
+            </div>
             <!-- Page-Abilities========================-->
             <div id="page-abilities">
                <div class="section-skills">
@@ -135,12 +137,41 @@
             <!--/Page-Abilities=======================-->
             </div>
             </div>
-            <div id="page-projects"></div>
-            <div id="page-contact"></div>
+            <div id="page-projects">
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div id="page-contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="google-map">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6254444686076!2d24.020869158127034!3d49.83774322475233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add70404b0c41%3A0x7a56da83fa3c7d60!2sSolomii+Krushel&#39;nyts&#39;koi+St%2C+7%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1467524855379" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="contact-data">
+                    <h4><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Office</h4>
+                    <p>Solomii Krushel'nyts'koi Street, 7, L'viv, Lviv Oblast, Ukraine</p>
+                    <h4><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Phone</h4>
+                    <p>+38 050 155 39 35</p>
+                    <h4><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;E-mail</h4>
+                    <p>or4ini@gmail.com</p>
+                    <h4><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send Me A Message</h4>
+                    <form id="form-contact" class="form" method="post" action="https://formspree.io/or4ini@gmail.com">
+                       <div class="form-group">
+                           <input class="form-control required" id="name" name="name" placeholder="Name" type="text" required>
+                       </div>
+                       <div class="form-group">
+                           <input class="form-control required" id="email" name="email" placeholder="E-Mail" type="email" required>
+                       </div>
+                       <div class="form-group">
+                           <textarea class="form-control required" id="message" name="message" placeholder="Message" rows="6" required></textarea>
+                       </div>
+                       <div class="form-group">
+                           <input type="submit" class="btn-send" value="Send">
+                       </div>
+                    </form>
+                </div>
+            </div>
             </div>
     </section>
     <!--/Main Content========================-->
-    <script src="js/index.js"></script>
-
+<script src="js/index.js"></script>
 </body>
 </html>

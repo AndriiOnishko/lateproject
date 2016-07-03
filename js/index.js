@@ -12,7 +12,7 @@ function PageAboutShow() {
     $("#page-abilities").hide();
     $("#page-resume").hide();
     $("#page-projects").hide();
-    $("#page-about").show(5000);
+    $("#page-about").show(500);
 }
 function PageResumeShow() {
     "use strict";
@@ -20,11 +20,11 @@ function PageResumeShow() {
     $("#page-abilities").hide();
     $("#page-about").hide();
     $("#page-projects").hide();
-    $("#page-resume").show();
+    $("#page-resume").show(500);
 }
 function PageAbilitiesShow() {
     "use strict";
-    $("#page-abilities").show();
+    $("#page-abilities").show(500);
     $("#page-resume").hide();
     $("#page-contact").hide();
     $("#page-about").hide();
@@ -36,11 +36,11 @@ function PageProjectsShow() {
     $("#page-abilities").hide();
     $("#page-resume").hide();
     $("#page-about").hide();
-    $("#page-projects").show();
+    $("#page-projects").show(500);
 }
 function PageContactShow() {
     "use strict";
-    $("#page-contact").show();
+    $("#page-contact").show(500);
     $("#page-resume").hide();
     $("#page-abilities").hide();
     $("#page-about").hide();
