@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 html{
-    font-family: 'Lato', sans-serif;
+
 }
 body{
     background-size: auto;
     background-image: url(../img/background.jpg);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 a{
     text-decoration: none;
@@ -15,7 +17,7 @@ ul{
     list-style: none;
 }
 
-div.container{
+.container{
     background-color: antiquewhite;
     position: relative;
     margin-right: auto;
@@ -23,6 +25,7 @@ div.container{
     padding-left: 2%;
     padding-right: 2%;
 }
+
 #main-menu{
     display: none;
 }
@@ -30,79 +33,71 @@ div.container{
     margin: 0;
     padding: 0;
 }
-.main-menu-list li{
-    margin-bottom: 10px;
+
+.section-vcbody{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
 
 }
-.main-menu-list a{
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    background: rgb(255, 165, 30);
-    border-radius: 8px;
-    text-transform: uppercase;
-    color: aliceblue;
-    display: block;
-    padding-left: 30px;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-}
-.main-menu-list a:hover{
-    background: rgb(178, 79, 0);
-}
-
-#home-block{
+#page-home{
     background-image: url(../img/hb-background.png);
     background-size: auto;
     position: absolute;
     border-radius: 8px;
     min-width: 35%;
-    height: 630px;
     top: 0;
-    margin-left: 23%;
-    overflow: hidden;
-}
-.card-home{
-    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
+
 .card-profile-img{
-    position: absolute;
-    left: 19%;
-    margin-top: 10%;
+    position: relative;
+    width: 60%;
+    height: 40%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+img{
+    margin:0 auto;
+    vertical-align: middle;
+    width: 100%;
+
 }
 .card-profile-description{
-    position: absolute;
-    padding-left: 10%;
-    margin-top: 50%;
+    text-align: center;
+
 }
 .prof-title{
-    position: absolute;
-    display: block;
-    margin-top: 3%;
-    left: 20%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 26px;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+    color: #021533;
 
 }
 .prof-subtitle{
-    display: block;
-    position: absolute;
-    margin-top: 9%;
-    left: 35%;
+    text-align: center;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bold;
 }
 .line-below-subtitle{
     display: block;
     position: relative;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 .card-description-text{
-    position: absolute;
-    margin-top: -1%;
-    left: 20%;
+    text-align: center;
+
 }
-.fa{
-    color: black;
-}
+
 .card-profile-description-ft-unit{
     position: relative;
     color: white;
@@ -111,16 +106,16 @@ div.container{
     padding:10px;
     background-image: url(../img/ft-background1.png);
     background-size: auto;
-    margin-left: -1%;
-    margin-top: 25%;
+    margin-left: 1%;
+
 }
 .card-footer{
-    position: absolute;
     margin-top: 8%;
-    margin-left: 25%;
+
 }
 .social-references a{
     margin-left: 10px;
+    color: black;
 }
 #page-abilities{
     background-color: aliceblue;
@@ -137,7 +132,6 @@ div.container{
 .section-title{
     width: 75%;
     color: black;
-    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 1px solid black;
@@ -151,7 +145,6 @@ div.container{
     width: 75%;
     margin-left: 10%;
     font-weight: bold;
-    font-size: 18px;
     border-bottom: 1px dotted black;
 }
 .dev-skills{
@@ -228,3 +221,25 @@ div.container{
     left:61%;
     overflow-y: scroll;
 }
+.google-map{
+    margin: 0 auto;
+    padding-left: 7%;
+}
+h4{
+    color: rgb(255, 165, 30);
+    line-height: 20px;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    border-radius: 0;
+    height: 50px;
+    padding: 6px 12px;
+    border: 1px, solid, #ccc;
+}
+
+
+
+
+
+

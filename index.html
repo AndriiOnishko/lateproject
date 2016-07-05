@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Onishko Andrii - Web Developer</title>
-    <link rel="stylesheet" media="(min-width:1200px)" href="css/main.css" type="text/css">
-    <link rel="stylesheet" media="(max-width:1200px)" href="css/1100.css" type="text/css">
+    <link rel="stylesheet" media="only screen and (min-width:1180px)" href="css/main.css" type="text/css">
+        <link rel="stylesheet" media="only screen and (max-width:1180px)" href="css/1100.css" type="text/css">
+
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="js/index.js" type="text/javascript">
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -30,12 +31,11 @@
                 </ul>
             </div>
             <!--/Main Menu===================-->
-            <!--Home===========================-->
-            <div id="home-block">
+
             <!--Card Body====================-->
-            <div id="card-home">
+            <div id="page-home" class="section-vcbody">
                 <div class="card-profile-img">
-                    <img id="pofile2" src="img/profile2.JPG" width="300" height="200" alt="lviv">
+                    <img id="pofile2" src="img/profile2.JPG" alt="lviv">
                 </div>
                 <!--Card-Profile-Description====================================-->
                 <div class="card-profile-description">
@@ -45,8 +45,8 @@
                     <hr class="line-below-subtitle">
                         <!--Description text=========================-->
                         <div class="card-description-text">
-                            <p>Web Developer, freelancer based on Lviv, Ukraine.</p>
-                            <p>This personal site is my first work!</p>
+                            <p>Web Developer, freelancer based on Lviv, Ukraine.<br>
+                            This personal site is my first work!</p>
                         </div>
                         <!--/Description text========================-->
                         <!--card-profile-description-feature======================-->
@@ -71,11 +71,9 @@
             </div>
             <!--/Card-profile-Description=================-->
         </div>
-        <!--/Card-Home====================================-->
-    </div>
-    <!--/Home-Block======================================-->
+    <!--/page-home======================================-->
 
-            <div id="page-about">
+            <div id="page-about" class="section-vcbody">
                 <article>
             <header>
                 <h2 class="section-title">About Me</h2>
@@ -111,11 +109,11 @@
             </footer>
         </article>
             </div>
-            <div id="page-resume">
+            <div id="page-resume" class="section-vcbody">
                 <h2 class="section-title">Resume</h2>
             </div>
             <!-- Page-Abilities========================-->
-            <div id="page-abilities">
+            <div id="page-abilities" class="section-vcbody">
                <div class="section-skills">
                     <h2 class="section-title">Abilities</h2>
                     <h3 class="section-item-title">Development Skills</h3>
@@ -137,22 +135,22 @@
             <!--/Page-Abilities=======================-->
             </div>
             </div>
-            <div id="page-projects">
+            <div id="page-projects" class="section-vcbody">
                 <h2 class="section-title">Projects</h2>
             </div>
-            <div id="page-contact">
+            <div id="page-contact" class="section-vcbody">
                 <h2 class="section-title">Contact</h2>
                 <div class="google-map">
-                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6254444686076!2d24.020869158127034!3d49.83774322475233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add70404b0c41%3A0x7a56da83fa3c7d60!2sSolomii+Krushel&#39;nyts&#39;koi+St%2C+7%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1467524855379" width="400" height="300" style="border:0" allowfullscreen></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6254444686076!2d24.020869158127034!3d49.83774322475233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add70404b0c41%3A0x7a56da83fa3c7d60!2sSolomii+Krushel&#39;nyts&#39;koi+St%2C+7%2C+L&#39;viv%2C+Lviv+Oblast!5e0!3m2!1sen!2sua!4v1467524855379" width="330" height="300" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="contact-data">
-                    <h4><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Office</h4>
+                    <h4 class="contact-subtitle"><i class="fa fa-university" aria-hidden="true"></i>&nbsp;Office</h4>
                     <p>Solomii Krushel'nyts'koi Street, 7, L'viv, Lviv Oblast, Ukraine</p>
-                    <h4><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Phone</h4>
+                    <h4 class="contact-subtitle"><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;Phone</h4>
                     <p>+38 050 155 39 35</p>
-                    <h4><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;E-mail</h4>
+                    <h4 class="contact-subtitle"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;E-mail</h4>
                     <p>or4ini@gmail.com</p>
-                    <h4><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send Me A Message</h4>
+                    <h4 class="contact-subtitle"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;Send Me A Message</h4>
                     <form id="form-contact" class="form" method="post" action="https://formspree.io/or4ini@gmail.com">
                        <div class="form-group">
                            <input class="form-control required" id="name" name="name" placeholder="Name" type="text" required>
