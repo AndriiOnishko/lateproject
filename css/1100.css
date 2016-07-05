@@ -18,8 +18,7 @@ ul{
 }
 
 .container{
-    background-color: antiquewhite;
-    position: relative;
+    position: absolute;
     margin-right: auto;
     margin-left: auto;
     padding-left: 2%;
@@ -45,12 +44,11 @@ ul{
 #page-home{
     background-image: url(../img/hb-background.png);
     background-size: auto;
-    position: absolute;
     border-radius: 8px;
     min-width: 35%;
     top: 0;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 auto;
+
 
 }
 
@@ -118,15 +116,13 @@ img{
     color: black;
 }
 #page-abilities{
-    background-color: aliceblue;
     background-image: url(../img/hb-background.png);
+    background-size: auto;
     border-radius: 8px;
-    position: absolute;
-    width: 35%;
-    height: 630px;
+    min-width: 35%;
     top: 0;
-    left:61%;
-    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%
 }
 
 .section-title{
@@ -186,17 +182,17 @@ img{
 }
 
 #page-about{
-    background-color: aliceblue;
+    display: block!important;
+    visibility: visible!important;
+    height: auto!important;
     background-image: url(../img/hb-background.png);
     background-size: auto;
     border-radius: 8px;
-    position: absolute;
-    width: 35%;
-    height: 630px;
-    top: 0;
-    left:61%;
-    overflow-y: scroll;
-}
+    min-width: 35%;
+    margin: 0 auto;
+    margin-top: 5%;
+   }
+
 #page-projects{
     background-color: aliceblue;
     background-image: url(../img/hb-background.png);
