@@ -5,8 +5,10 @@ html{
 
 }
 body{
-    background-size: auto;
+    background-size: cover;
     background-image: url(../img/background.jpg);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 a{
     text-decoration: none;
@@ -63,7 +65,7 @@ ul{
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
-
+    box-shadow: 5px 5px 5px 4px rgba(0,0,0,0.30);
 }
 #page-home{
     background-image: url(../img/hb-background.png);
@@ -99,6 +101,11 @@ img{
     display: block;
     margin-top: -20%;
     left: 20%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    letter-spacing: -2px;
+    color: #021533;
 
 }
 .prof-subtitle{
@@ -106,6 +113,11 @@ img{
     position: absolute;
     margin-top: -12%;
     left: 35%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #021533;
 }
 .line-below-subtitle{
     display: block;
@@ -139,7 +151,6 @@ img{
     color: black;
 }
 #page-abilities{
-    background-color: aliceblue;
     background-image: url(../img/hb-background.png);
     border-radius: 8px;
     position: absolute;
@@ -168,30 +179,49 @@ img{
     font-weight: bold;
     border-bottom: 1px dotted black;
 }
-.dev-skills{
-    width: 85%;
+
+.skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 15px 0;
+  width: 100%;
+  background: #eee;
+  height: 35px;
+  border-radius: 3px;
+  width: 100%;
 }
-.dev-skills li{
-    background-color: aliceblue;
-    margin-bottom: 5%;
-    line-height: 150%;
-    border-radius: 4px;
-    padding-left: 20px;
-    opacity: 0.5;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+.skillbar-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #ffffff;
+  background: #6adcfa;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  height: 35px;
+  line-height: 35px;
 }
-.prof-skills{
-    width: 400px;
+.skillbar-bar {
+  height: 35px;
+  width: 0px;
+  background: #6adcfa;
+  border-radius: 3px;
+  display: inline-block;
 }
-.prof-skills li{
-    display: block;
-    background-color: aliceblue;
-    margin-bottom: 5%;
-    line-height: 150%;
-    border-radius: 4px;
-    padding-left: 20px;
-    opacity: 0.5;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  color: rgba(0, 0, 0, 0.4);
 }
 #page-resume{
     background-color: aliceblue;
@@ -250,15 +280,41 @@ h4{
     color: rgb(255, 165, 30);
     line-height: 20px;
 }
+.form{
+    display:block;
+    margin-top: 0;
+}
+.form-group{
+    margin-bottom: 5px;
+}
 .form-control{
     display: block;
     width: 100%;
-    border-radius: 0;
-    height: 50px;
+    line-height: 1.42857143;
+    font-size: 15px;
     padding: 6px 12px;
-    border: 1px, solid, #ccc;
+    margin-bottom: 1px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
 }
-
+#message{
+    height: auto;
+}
+.btn-send{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgb(255, 165, 30);
+    border: 0 solid transparent;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+.btn-send:hover{
+    background: rgb(178, 79, 0);
+}
 
 
 
