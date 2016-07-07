@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     "use strict";
     PageAbilitiesHide();
     PageContactHide();
@@ -69,23 +69,23 @@ function PageProjectsHide() {
 $('.skillbar').skillBars({
 
   // number start
-  from: 0,
+    from: 0,
   // number end
-  to: false,
-// animation speed
-  speed: 4500,
-    // how often the element should be up<a href="http://www.jqueryscript.net/time-clock/">date</a>d
-  interval: 300,
+    to: false,
+  // animation speed
+    speed: 4500,
+  // how often the element should be up<a href="http://www.jqueryscript.net/time-clock/">date</a>d
+    interval: 300,
   // the number of decimal places to show
-  decimals: 0,
+    decimals: 0,
   // callback method for every time the element is updated,
-  onUpdate: null,
+    onUpdate: null,
   // callback method for when the element finishes updating
-  onComplete: null,
+    onComplete: null,
   // CSS classes
-  classes:{
-    skillBarBar : '.skillbar-bar',
-    skillBarPercent : '.skill-bar-percent',
-  }
+    classes: {
+        skillBarBar : '.skillbar-bar',
+        skillBarPercent : '.skill-bar-percent'
+    }
 });
 
