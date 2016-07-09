@@ -5,6 +5,7 @@ $(document).ready(function () {
     PageAboutHide();
     PageResumeHide();
     PageProjectsHide();
+    PageBlogHide();
 });
 function PageAboutShow() {
     "use strict";
@@ -12,6 +13,7 @@ function PageAboutShow() {
     $("#page-abilities").hide();
     $("#page-resume").hide();
     $("#page-projects").hide();
+    $("#page-blog").hide();
     $("#page-about").show(500);
 }
 function PageResumeShow() {
@@ -20,15 +22,17 @@ function PageResumeShow() {
     $("#page-abilities").hide();
     $("#page-about").hide();
     $("#page-projects").hide();
+    $("#page-blog").hide();
     $("#page-resume").show(500);
 }
 function PageAbilitiesShow() {
     "use strict";
-    $("#page-abilities").show(500);
     $("#page-resume").hide();
     $("#page-contact").hide();
     $("#page-about").hide();
     $("#page-projects").hide();
+    $("#page-blog").hide();
+    $("#page-abilities").show(500);
 }
 function PageProjectsShow() {
     "use strict";
@@ -36,14 +40,26 @@ function PageProjectsShow() {
     $("#page-abilities").hide();
     $("#page-resume").hide();
     $("#page-about").hide();
+    $("#page-blog").hide();
     $("#page-projects").show(500);
+}
+function PageBlogShow() {
+    "use strict";
+    $("#page-contact").hide();
+    $("#page-abilities").hide();
+    $("#page-resume").hide();
+    $("#page-about").hide();
+    $("#page-projects").hide();
+    $("#page-blog").show(500);
 }
 function PageContactShow() {
     "use strict";
-    $("#page-contact").show(500);
     $("#page-resume").hide();
     $("#page-abilities").hide();
     $("#page-about").hide();
+    $("#page-projects").hide();
+    $("#page-blog").hide();
+    $("#page-contact").show(500);
 }
 function PageAbilitiesHide() {
     "use strict";
@@ -64,6 +80,10 @@ function PageResumeHide() {
 function PageProjectsHide() {
     "use strict";
     $("#page-projects").hide();
+}
+function PageBlogHide() {
+    "use strict";
+    $("#page-blog").hide();
 }
 
 $('.skillbar').skillBars({

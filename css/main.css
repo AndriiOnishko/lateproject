@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 html{
-
+background: url(../img/bg2.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 body{
-    background-size: cover;
-    background-image: url(../img/background.jpg);
     font-family: 'Montserrat', sans-serif;
     font-size: 100%;
 }
@@ -60,7 +62,7 @@ ul{
     background: rgb(178, 79, 0);
 }
 .section-vcbody{
-    width: 400px;
+    width: 30%;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -126,8 +128,12 @@ img{
 }
 .card-description-text{
     position: absolute;
-    margin-left: 10%;
+    margin-left: 11%;
     margin-top: -1%;
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: #021533;
 }
 
 .card-profile-description-ft-unit{
@@ -249,6 +255,18 @@ img{
     overflow-y: scroll;
 }
 #page-projects{
+    background-color: aliceblue;
+    background-image: url(../img/hb-background.png);
+    background-size: auto;
+    border-radius: 8px;
+    position: absolute;
+    width: 35%;
+    height: 630px;
+    top: 0;
+    left:61%;
+    overflow-y: scroll;
+}
+#page-blog{
     background-color: aliceblue;
     background-image: url(../img/hb-background.png);
     background-size: auto;
