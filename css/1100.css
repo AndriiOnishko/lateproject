@@ -50,10 +50,7 @@ ul{
     min-width: 35%;
     top: 0;
     margin: 0 auto;
-
-
 }
-
 .card-profile-img{
     position: relative;
     width: 60%;
@@ -70,7 +67,6 @@ img{
 }
 .card-profile-description{
     text-align: center;
-
 }
 .prof-title{
     text-align: center;
@@ -80,7 +76,6 @@ img{
     letter-spacing: -2px;
     margin-bottom: 8px;
     color: #021533;
-
 }
 .prof-subtitle{
     text-align: center;
@@ -95,9 +90,7 @@ img{
 }
 .card-description-text{
     text-align: center;
-
 }
-
 .card-profile-description-ft-unit{
     position: relative;
     color: white;
@@ -111,7 +104,6 @@ img{
 }
 .card-footer{
     margin-top: 8%;
-
 }
 .social-references a{
     margin-left: 10px;
@@ -127,20 +119,16 @@ img{
     min-width: 35%;
     margin: 0 auto;
     margin-top: 5%;
-
 }
-
 .section-title{
-    width: 75%;
+    width: 100%;
     color: black;
     font-weight: bold;
     text-transform: uppercase;
-    border-bottom: 1px solid black;
-    margin-left: 10%;
-    margin-top: 5%;
-    padding-bottom: 10px;
-    padding-left: 130px;
-    margin-bottom: 5%;
+    border-bottom: 1px dotted black;
+    margin: 0 auto;
+    padding-bottom: 3%;
+    padding-left: 30%;
 }
 .section-item-title{
     width: 75%;
