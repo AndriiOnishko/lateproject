@@ -53,11 +53,14 @@ ul{
 }
 .card-profile-img{
     position: relative;
-    width: 60%;
-    height: 40%;
+    width: 200px;
+    height: 280px;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 5%;
+    border: 5px solid rgb(230, 230, 250);
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,0.30);
 }
 img{
     margin:0 auto;
@@ -80,8 +83,11 @@ img{
 .prof-subtitle{
     text-align: center;
     margin-top: 0;
-    font-size: 14px;
+    text-align: center;
     font-weight: bold;
+    font-size: 20px;
+    letter-spacing: -2px;
+    color: #021533;
 }
 .line-below-subtitle{
     display: block;
@@ -202,7 +208,12 @@ img{
     margin: 0 auto;
     margin-top: 5%;
    }
-
+.img-nastia{
+    width: 200px;
+    height: 300px;
+    float: left;
+    border: 1px solid rgb(230, 230, 250);
+}
 #page-projects{
     display: block!important;
     visibility: visible!important;

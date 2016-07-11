@@ -83,16 +83,19 @@ ul{
 
 .card-profile-img{
     position: relative;
-    width: 60%;
-    height: 40%;
+    width: 200px;
+    height: 250px;
     overflow: hidden;
     margin: 0 auto;
     margin-bottom: 10%;
+    border: 5px solid rgb(230, 230, 250);
+    border-radius: 5%;
+    box-shadow: 3px 3px 2px 2px rgba(0,0,0,0.30);
 }
 img{
     vertical-align: middle;
     width: 100%;
-    height: 80%;
+
 }
 .card-profile-description{
     text-align: center;
@@ -101,7 +104,7 @@ img{
 .prof-title{
     position: absolute;
     display: block;
-    margin-top: -20%;
+    margin-top: -16%;
     left: 20%;
     text-align: center;
     font-weight: bold;
@@ -113,7 +116,7 @@ img{
 .prof-subtitle{
     display: block;
     position: absolute;
-    margin-top: -12%;
+    margin-top: -10%;
     left: 35%;
     text-align: center;
     font-weight: bold;
@@ -256,6 +259,12 @@ img{
     left:61%;
     overflow-y: scroll;
     display: none;
+}
+.img-nastia{
+    width: 200px;
+    height: 300px;
+    float: left;
+    border: 1px solid rgb(230, 230, 250);
 }
 #page-projects{
     background-color: aliceblue;
