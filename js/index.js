@@ -93,9 +93,9 @@ $('.skillbar').skillBars({
   // number end
     to: false,
   // animation speed
-    speed: 4500,
+    speed: 4000,
   // how often the element should be up<a href="http://www.jqueryscript.net/time-clock/">date</a>d
-    interval: 300,
+    interval: 320,
   // the number of decimal places to show
     decimals: 0,
   // callback method for every time the element is updated,
