@@ -1,3 +1,4 @@
+//Hide all div, witch we don't wannt to see//
 $(document).ready(function () {
     "use strict";
     PageAbilitiesHide();
@@ -85,7 +86,7 @@ function PageBlogHide() {
     "use strict";
     $("#page-blog").hide();
 }
-
+//jQuery for skillbar//
 $('.skillbar').skillBars({
 
   // number start
@@ -109,7 +110,7 @@ $('.skillbar').skillBars({
     }
 });
 
-//Send Form//
+//Send Form with ajax//
 $(function() {
     $('#button').click(function(e) {
         e.preventDefault();
