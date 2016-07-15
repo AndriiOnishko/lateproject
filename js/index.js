@@ -109,3 +109,23 @@ $('.skillbar').skillBars({
     }
 });
 
+//Send Form//
+$(function() {
+    $('#button').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+            url: "https://formspree.io/or4ini@gmail.com",
+            method: "POST",
+            data: {
+                name: $('#name').val(),
+                email: $('#email').val(),
+                message: $('#message').val()
+            },
+            dataType: "json"
+        }).done(function() {
+            $('#form-contact').html('<h1>Thank you!</h1>');
+            $('#form-contact h1').css('margin-bottom','350px');
+        });
+    });
+});
+
