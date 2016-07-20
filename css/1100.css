@@ -50,6 +50,7 @@ ul{
     min-width: 35%;
     top: 0;
     margin: 0 auto;
+    overflow-x: scroll;
 }
 .card-profile-img{
     position: relative;
@@ -207,6 +208,7 @@ img{
     min-width: 35%;
     margin: 0 auto;
     margin-top: 5%;
+    overflow-x: scroll;
    }
 .img-nastia{
     width: 200px;

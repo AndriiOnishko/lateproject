@@ -333,7 +333,7 @@ h4{
 #message{
     height: auto;
 }
-.btn-send{
+#button{
     cursor: pointer;
     display: inline-block;
     width: 100%;
@@ -346,7 +346,7 @@ h4{
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
 }
-.btn-send:hover{
+#button:hover{
     background: rgb(178, 79, 0);
 }
 
